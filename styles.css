@@ -1,0 +1,122 @@
+/*General Styles*/
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: aquamarine;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/*Header Styling*/
+header{
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/*Section Styling*/
+
+section{
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+/*intro styling*/
+.header-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+
+.header-text {
+    margin-bottom: 20px;
+}
+
+/*Content Styling*/
+
+h1{
+    font-size: 36px;
+}
+
+/* Form Section Styling*/
+
+.registration-section{
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+form {
+    margin-top: 10px;
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #004080;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #003060;
+}
+
+/* Registered users table styling */
+.users-section {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #004080;
+    color: white;
+}
+
+/* Footer styling */
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+a {
+    color: #004080;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
